@@ -39,7 +39,7 @@ public class AddCityFragment extends DialogFragment {
         AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
         return builder
                 .setView(view)
-                .setTitle("Add/Edit city")
+                .setTitle("Add city")
                 .setNegativeButton("Cancel", null)
                 .setPositiveButton("Ok", (dialog, which) -> {
                     String cityName = editCityName.getText().toString();
